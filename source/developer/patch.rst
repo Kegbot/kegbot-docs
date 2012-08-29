@@ -1,7 +1,7 @@
 .. _pull-request:
 
-Submitting a Pull Request
-=========================
+Submitting a Patch
+==================
 
 Kegbot is hosted on GitHub.  We use the `pull request
 <https://help.github.com/articles/using-pull-requests>`_ feature to accept new

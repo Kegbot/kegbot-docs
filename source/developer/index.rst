@@ -8,5 +8,5 @@ This document contains various notes for developers.
 .. toctree::
   :maxdepth: 2
 
-  pull-request
+  patch
   code-style
