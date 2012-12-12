@@ -4,22 +4,32 @@ include sphinx.mk
 
 SYNC := rsync -a --checksum --delete-after
 
+SYNC = \
+	repo=$(1); \
+	if [ ! -e "ext/$$repo" ]; then \
+		git clone https://github.com/Kegbot/$$repo ext/$$repo; \
+	else \
+		cd ext/$$repo && git pull; \
+	fi
+
+ext:
+	mkdir ext
+
 kbcollect:
-	$(SYNC) ../kegbot/deploy/ deploy/
-	$(SYNC) ../kegbot/docs/source/ source/server
-	$(SYNC) ../kegbot-api/docs/source/ source/api
-	$(SYNC) ../kegboard/docs/source/ source/kegboard
-	$(SYNC) ../kegbot-pycore/docs/source/ source/pycore
+	$(call SYNC,kegbot)
+	$(call SYNC,kegbot-api)
+	$(call SYNC,kegboard)
+	$(call SYNC,kegbot-pycore)
 
 kbclean:
-	rm -rf source/{server,api,kegboard,pycore}
+	rm -rf ext
 
 kbhtml: kbcollect html
 
 kbjson: kbcollect json
 
-kbsync: kbclean kbjson
+kbsync: kbjson
 	rsync -av --checksum --delete-after -e ssh build/ \
-	  kegbot@planetkb:www/kegbot.org/docs/
+	  kegbot@pkb:www/kegbot.org/docs/
 
 .PHONY: kbcollect kbclean kbhtml kbjson kbsync

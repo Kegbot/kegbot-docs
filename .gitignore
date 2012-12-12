@@ -1,7 +1,2 @@
 *.DS_Store
 build/
-
-source/api
-source/server
-source/kegboard
-source/pycore
