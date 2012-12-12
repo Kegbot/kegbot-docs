@@ -5,6 +5,7 @@ include sphinx.mk
 SYNC := rsync -a --checksum --delete-after
 
 kbcollect:
+	$(SYNC) ../kegbot/deploy/ deploy/
 	$(SYNC) ../kegbot/docs/source/ source/server
 	$(SYNC) ../kegbot-api/docs/source/ source/api
 	$(SYNC) ../kegboard/docs/source/ source/kegboard

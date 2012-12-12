@@ -13,10 +13,10 @@ Contents:
 
   server/index
   kegboard/index
+  kegboard-build/index
   api/index
   pycore/index
   developer/index
-
 
 Other Resources
 ===============
