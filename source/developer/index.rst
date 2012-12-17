@@ -1,5 +1,6 @@
 .. _developer:
 
+===============
 Developer Notes
 ===============
 
@@ -10,3 +11,4 @@ This document contains various notes for developers.
 
   patch
   code-style
+  docs
