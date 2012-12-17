@@ -1,3 +1,6 @@
+.. _checklist:
+
+=========
 Checklist
 =========
 
@@ -8,16 +11,18 @@ Here's a handy checklist you can use when building a new system.
 +=======+======================================================================+
 |       | Sign up for a kegbot.org account (`link </account/register>`_).      |
 +-------+----------------------------------------------------------------------+
+|       | Set up the Kegbot Server (`docs </docs/server/>`_).                  |
++-------+----------------------------------------------------------------------+
 |       | Acquire an Arduino.                                                  |
 +-------+----------------------------------------------------------------------+
-|       | Build and test Arduino firmware (pre assembly).                      |
+|       | Build and test the Arduino firmware before assembly.                 |
 +-------+----------------------------------------------------------------------+
 |       | Order Kegboard parts (`link </store/>`_).                            |
 +-------+----------------------------------------------------------------------+
 |       | Assemble and test Kegboard.                                          |
 +-------+----------------------------------------------------------------------+
-|       | Acquire an Android tablet.                                           |
+|       | Acquire an Android tablet (`Android information </android/>`_).      |
 +-------+----------------------------------------------------------------------+
-|       | Download the Kegbot Android app.                                     |
+|       | Download and run the Kegbot Android app.                             |
 +-------+----------------------------------------------------------------------+
 

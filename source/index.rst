@@ -11,6 +11,7 @@ Contents:
 .. toctree::
   :maxdepth: 2
 
+  getting-started/index
   server/index
   kegboard/index
   kegboard-build/index
