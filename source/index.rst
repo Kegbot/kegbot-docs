@@ -13,6 +13,7 @@ Contents:
 
   getting-started/index
   server/index
+  android/index
   kegboard/index
   kegboard-build/index
   api/index
