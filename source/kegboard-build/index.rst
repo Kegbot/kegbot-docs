@@ -12,6 +12,7 @@ controller.  For software information, see the compantion `Kegboard Guide
 
    overview
    schematics
+   functional-blocks
    parts-list
    kegboard-assembly
    coaster-assembly
