@@ -8,7 +8,7 @@ Kegboard: Full Build
 This is a parts list for a fully-populated Kegboard, supporting two flow
 meters, four relays, RFID reader, and all breakout and accessory ports.
 
-* Sparkfun items: 56 (`Sparkfun Wish List <http://sprkfn.com/w12651>`_)
+* Sparkfun items: 56 (`Sparkfun Wish List <http://sfe.io/w12651>`_)
 * Digi-Key items: 4
 * Radio Shack items: 2
 * **Total Items**: 62
@@ -44,7 +44,7 @@ Kegboard Coaster: Full Build
 
 This a parts list for a single fully-populated Kegboard coaster.
 
-* Sparkfun items: 11 (`Sparkfun Wish List <http://sprkfn.com/w14025>`_)
+* Sparkfun items: 11 (`Sparkfun Wish List <http://sfe.io/w14025>`_)
 * Radio Shack items: 0
 * **Total Items**: 11
 
@@ -65,7 +65,7 @@ Kegboard, Single Coaster, and No Relays
 
 This is a variation of the complete parts list, removing all relays (which many users don't use) and combining the BOM for a single coaster.
 
-* Sparkfun items: 32 (`Sparkfun Wish List <http://sprkfn.com/w24165>`_)
+* Sparkfun items: 32 (`Sparkfun Wish List <http://sfe.io/w24165>`_)
 * Radio Shack items: 2
 * **Total Items**: 34
 
@@ -99,7 +99,7 @@ This is a variation of the complete kegboard parts list, removing all relays
 and RFID components and combining the BOM for a single coaster.  "Bare Minimum"
 Configuation 
 
-* Sparkfun items: 26 (`Sparkfun Wish List <http://sprkfn.com/w41224>`_)
+* Sparkfun items: 26 (`Sparkfun Wish List <http://sfe.io/w41224>`_)
 * Radio Shack items: 2
 * **Total Items**: 28
 
