@@ -1,11 +1,11 @@
 .. _kegboard-build-guide:
 
-Kegboard Build Guide
-====================
+Kegboard Arduino DIY Assembly Guide
+===================================
 
-This document describes how to assemble a Kegboard, our Arduino-based beer keg
-controller.  For software information, see the compantion `Kegboard Guide
-<http://kegbot.org/docs/kegboard/>`_.
+This document describes how to assemble a Kegboard Shield, our Arduino-based
+beer keg controller.  For software information, see the compantion `Kegboard
+Guide <http://kegbot.org/docs/kegboard/>`_.
 
 .. toctree::
    :maxdepth: 2

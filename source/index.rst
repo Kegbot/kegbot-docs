@@ -6,10 +6,8 @@ Kegbot Documentation Index
 
 This is the main collection of Kegbot's official documentation.
 
-Contents:
-
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
 
   getting-started/index
   server/index

@@ -298,7 +298,7 @@ in place with tape to prevent movement during soldering.
 .. image:: _static/images/57.jpg
 
 Finished!
---------
+---------
 
 Congrats that should be 62 parts that you just finished soldering to your
 kegboard PCB. Now is a good time to look over your kegboard for any missed or
